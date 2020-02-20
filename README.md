@@ -1,4 +1,4 @@
-Questão 1 [Telefone]:
+## Questão 01 [Telefone]:
 João, um cara muito extrovertido, acabou se envolvendo em algumas brincadeiras e levou uma suspensão. Como castigo, sua mãe (uma médica muito conhecida) resolveu lhe dar uma tarefa um tanto quanto chata. 
 
 Dois dias antes da suspensão de João, sua mãe havia formatado seu celular e perdido todos os contatos de seus clientes, lhe restando somente uma agenda antiga onde tinha todos os números anotados. 
@@ -38,9 +38,6 @@ Delete registro:
     "data": "20/02/2020"
 }
 
+## Questão 02 [Notas]
 
-
-
-
-
-
+Uma professora, muito dedicada, mora no interior 
