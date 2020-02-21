@@ -16,7 +16,7 @@ public class Nota implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Integer id;
+	private Long id;
 	private String matricula;
 	private String descricaoDisciplina;
 	private Double notaPortugues;
@@ -44,10 +44,10 @@ public class Nota implements Serializable {
 	public void setBimestre(Integer bimestre) {
 		this.bimestre = bimestre;
 	}
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getDescricaoDisciplina() {
