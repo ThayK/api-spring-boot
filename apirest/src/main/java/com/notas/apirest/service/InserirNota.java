@@ -24,7 +24,7 @@ public class InserirNota {
 		 Nota notaDeCadaRegistro = new Nota();
 		 
 		 notaDeCadaRegistro.setBimestre(nota.get(i).getBimestre());
-		 notaDeCadaRegistro.setDescricaoDisciplina(nota.get(i).getDescricaoDisciplina());
+		 notaDeCadaRegistro.setNomeAluno(nota.get(i).getNomeAluno());
 		 notaDeCadaRegistro.setMatricula(nota.get(i).getMatricula());
 		 notaDeCadaRegistro.setNotaCiencias(nota.get(i).getNotaCiencias());
 		 notaDeCadaRegistro.setNotaHistoria(nota.get(i).getNotaHistoria());
