@@ -38,6 +38,8 @@ Delete registro:
     "data": "20/02/2020"
 }
 
-## Questão 02 [Notas]
+## Questão 02 [apiRest]
 
 Uma professora, muito dedicada, mora no interior 
+
+## Questão 03 [controleFuncionario]
