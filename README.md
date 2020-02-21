@@ -30,13 +30,14 @@ Update registro:
 }
 
 Delete registro:
-
+```
 {
     "id":5
     "telefone": 984716103,
     "nome": "Maria123",
     "data": "20/02/2020"
 }
+```
 
 Observação: O coverage atingiu somente 14%. Continue realizando os testes.
 
