@@ -72,7 +72,7 @@ Para inserir os dados no sistema a estrutura é a seguinte:
     }
 ]    
 ```
-Este serviço já calcula baseado nas notas se o aluno está de recuperação ou não (considerando notas >= 5 como aprovado).
+Este serviço já calcula, baseado nas notas, se o aluno está de recuperação ou não (considerando notas >= 5 como aprovado).
 
 Este serviço precisa de melhorias, analise e as faça como achar melhor.
 
