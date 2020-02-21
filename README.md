@@ -42,7 +42,36 @@ Observação: O coverage atingiu somente 14%. Continue realizando os testes.
 
 ## Questão 02 [apiRest]
 
-Uma professora, muito dedicada, mora no interior 
+Uma professora, muito dedicada, trabalha em uma escola que não possui internet. Portanto para se auto organizar e lançar as notas no sistema em outro momento (quando tiver acesso a internet) ela guarda os dados dos alunos em um excel. 
+
+Vamos pensar no sistema que esta professora utiliza:
+Imaginemos que existe uma interface (frontend) que coleta este arquivo (.xls, .csv) com os dados dos alunos e os transforma em json, que é o que recebemos no backend. 
+
+Para inserir os dados no sistema a estrutura é a seguinte:
+[
+    {
+        "matricula": "160146232",
+        "nomeAluno": "thay",
+        "notaPortugues": 5.5,
+        "notaMatematica": 6.7,
+        "notaCiencias": 2.3,
+        "notaHistoria": 5.6,
+        "bimestre": 1
+    },
+    {
+        "matricula": "12345678",
+        "nomeAluno": "maria",
+        "notaPortugues": 5.5,
+        "notaMatematica": 6.7,
+        "notaCiencias": 2.3,
+        "notaHistoria": 5.6,
+        "bimestre": 1
+    }
+]    
+
+Este serviço já calcula baseado nas notas se o aluno está de recuperação ou não (considerando notas >= 5 como aprovado).
+
+Este serviço precisa de melhorias, analise e as faça como achar melhor.
 
 ## Questão 03 [controleFuncionario]
 Um programador, de uma pequena software house, começou a trabalhar em um novo projeto. Este projeto se resume em um CRUD, onde o funcionário responsável pelas férias/salário poderá usar. Porém, este programador teve um problema e precisou se ausentar.
