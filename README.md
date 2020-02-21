@@ -81,6 +81,17 @@ Um programador, de uma pequena software house, começou a trabalhar em um novo p
 
 Você precisa continuar este projeto e entrega-lo dentro do prazo. 
 
-O CRUD já está feito e funcionando, mas ainda precisa-se criar uma api para buscar por uma chave, testes unitários entre outras melhorias.
+O CRUD já está feito e funcionando, mas o funcionário que irá utilizar o sistema precisa de mais funcionalidades que as já existentes.
+Se você fosse o funcionário que fosse trabalhar com o sistema. Como poderia melhorar?Como você poderia testar as funcionalidades existentes e as novas?
 
-Você pode continuar?
+Faça as melhorias como achar melhor.
+
+Para inserir os dados:
+````
+   {
+        "nome": "thay",
+        "salario": 4567.0,
+        "ferias": 27
+    }
+````
+
