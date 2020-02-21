@@ -14,21 +14,22 @@ Como João ainda é um pequeno iniciante na área de desenvolvimento pode haver 
 Estrutura:
 
 Insert novo registro:
+```
 {
     "telefone": 984716103,
     "nome": "Maria",
     "data": "20/02/2020"
 }
-
+```
 Update registro:
-
+```
 {
     "id":5
     "telefone": 984716103,
     "nome": "Maria123",
     "data": "20/02/2020"
 }
-
+```
 Delete registro:
 ```
 {
@@ -49,6 +50,7 @@ Vamos pensar no sistema que esta professora utiliza:
 Imaginemos que existe uma interface (frontend) que coleta este arquivo (.xls, .csv) com os dados dos alunos e os transforma em json, que é o que recebemos no backend. 
 
 Para inserir os dados no sistema a estrutura é a seguinte:
+```
 [
     {
         "matricula": "160146232",
@@ -69,7 +71,7 @@ Para inserir os dados no sistema a estrutura é a seguinte:
         "bimestre": 1
     }
 ]    
-
+```
 Este serviço já calcula baseado nas notas se o aluno está de recuperação ou não (considerando notas >= 5 como aprovado).
 
 Este serviço precisa de melhorias, analise e as faça como achar melhor.
