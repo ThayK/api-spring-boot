@@ -38,6 +38,8 @@ Delete registro:
     "data": "20/02/2020"
 }
 
+Observação: O coverage atingiu somente 14%. Continue realizando os testes.
+
 ## Questão 02 [apiRest]
 
 Uma professora, muito dedicada, mora no interior 
