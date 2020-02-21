@@ -45,7 +45,7 @@ Observação: O coverage atingiu somente 14%. Continue realizando os testes.
 Uma professora, muito dedicada, mora no interior 
 
 ## Questão 03 [controleFuncionario]
-Um programador, de uma pequena software house, começou a trabalhar em um novo projeto. Este projeto se resume em um CRUD, onde o funcionário responsável pelas folhas de ponto/salário pudesse usar. Porém, este programador teve um problema e precisou se ausentar.
+Um programador, de uma pequena software house, começou a trabalhar em um novo projeto. Este projeto se resume em um CRUD, onde o funcionário responsável pelas férias/salário poderá usar. Porém, este programador teve um problema e precisou se ausentar.
 
 Você precisa continuar este projeto e entrega-lo dentro do prazo. 
 
